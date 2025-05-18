@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/credit-risk-assessment.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.invoice-verification]
+path = 'contracts/invoice-verification.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
